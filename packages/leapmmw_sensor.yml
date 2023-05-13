@@ -105,7 +105,7 @@ switch:
     name: show_target_stats
     id: show_target_stats
     optimistic: true
-    internal: true
+    internal: false
     on_turn_off:
       - lambda: 'return clearTargets();'
 
